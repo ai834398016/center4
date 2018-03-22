@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div {
+            border: 2px solid red;
+            height: 300px;
+            text-align: center;
+        }
+        div::before {
+            content: '';
+            vertical-align: middle;
+            height: 100%;
+            display: inline-block;
+        }
+        img {
+            height: 150px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="face.jpg">
+    </div>
+</body>
+</html>
